@@ -30,7 +30,7 @@ diskSize: {{ $nodepool.diskSize | squote }}
 folder: {{ $nodepool.folder }}
 hostsystem: {{ $nodepool.hostsystem }}
 memorySize: {{ $nodepool.memorySize | squote }}
-network: {{ $nodepool.network }}
+network: [ds06.198.128.131.1-24]
 pool: {{ $nodepool.pool }}
 sshPort: {{ $nodepool.sshPort | squote }}
 sshUser: {{ $nodepool.sshUser }}
