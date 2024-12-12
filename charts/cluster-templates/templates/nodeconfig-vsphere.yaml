@@ -20,7 +20,7 @@ cfgparam: {{ $nodepool.cfgparam }}
 {{- end }}
 cloneFrom: {{ $nodepool.cloneFrom }}
 contentLibrary: {{ $nodepool.contentLibrary }}
-cpuCount: 8
+cpuCount: '8'
 creationType: {{ $nodepool.creationType }}
 customAttribute: {{ $nodepool.customAttribute }}
 datacenter: {{ $nodepool.datacenter }}
