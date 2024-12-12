@@ -18,10 +18,6 @@ vcenter:
 
 # cluster values
 cluster:
-  # annotations:
-    # key: value
-  # labels:
-    # key: value
   name: rke2-cluster-vsphere
 
 nodepools:
