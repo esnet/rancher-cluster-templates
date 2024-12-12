@@ -19,11 +19,8 @@ common:
 cfgparam: {{ $nodepool.cfgparam }}
 {{- end }}
 cloneFrom: {{ $nodepool.cloneFrom }}
-cloudConfig: |-
-{{ $nodepool.cloudConfig | indent 2 }}
-cloudinit: {{ $nodepool.cloudinit }}
 contentLibrary: {{ $nodepool.contentLibrary }}
-cpuCount: {{ $nodepool.cpuCount | squote }}
+cpuCount: 8
 creationType: {{ $nodepool.creationType }}
 customAttribute: {{ $nodepool.customAttribute }}
 datacenter: {{ $nodepool.datacenter }}
